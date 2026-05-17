@@ -20,7 +20,7 @@ CIFAR-10 is downloaded automatically. For Covertype, place the data file at:
 ## Directory
 
 ```text
-CryptoBackdoor1/
+CryptoBackdoor/
 ├── README.md
 ├── detect.py
 └── src/

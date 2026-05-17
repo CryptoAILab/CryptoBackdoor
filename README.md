@@ -11,7 +11,7 @@ pip install torch==2.6.0 torchvision==0.21.0 torchaudio==2.6.0 --index-url https
 pip install numpy scikit-learn scipy matplotlib tqdm cvxpy
 ```
 
-CIFAR-10 is downloaded automatically. For Covertype, place the data file at:
+CIFAR-10 is downloaded automatically. For [Covertype](https://archive.ics.uci.edu/dataset/31/covertype), please download and place the data file at:
 
 ```text
 ./dataset/covtype.data

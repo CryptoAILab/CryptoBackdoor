@@ -213,7 +213,7 @@ def visual_bk(X_test, bk_c2, bk_c3, g):
     plt.hist(x_flat.numpy(), bins=50, alpha=0.75, color='orange', label='x')
     plt.yscale("log")
     plt.legend()
-    plt.savefig("figs/hist_pixel_distribution_c2.png", dpi=300)
+    plt.savefig("figs/covertype_hist_pixel_distribution_c2.png", dpi=300)
     plt.close()
 
 
@@ -223,7 +223,7 @@ def visual_bk(X_test, bk_c2, bk_c3, g):
     plt.hist(x_flat.numpy(), bins=50, alpha=0.75, color='orange', label='x')
     plt.yscale("log")
     plt.legend()
-    plt.savefig("figs/hist_pixel_distribution_c3.png", dpi=300)
+    plt.savefig("figs/covertype_hist_pixel_distribution_c3.png", dpi=300)
     plt.close()
 
 
@@ -236,7 +236,7 @@ def visual_bk(X_test, bk_c2, bk_c3, g):
     plt.legend()
     plt.tight_layout()
     os.makedirs("figs", exist_ok=True)
-    plt.savefig("figs/bk_vs_x_in_c2_c3.png", dpi=300)
+    plt.savefig("figs/covertype_bk_vs_x_in_c2_c3.png", dpi=300)
     plt.close()
 
     print("Finish bk visual results.")
